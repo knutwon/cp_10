@@ -1,8 +1,9 @@
 
 import random
 
-def number_list():
+def lottonumber_list():
     results = []
+
 
     while len(results) < 6:
         number = random.randint(1, 45)
@@ -15,4 +16,4 @@ def number_list():
 
 
 
-print(f"생성된 로또 번호는 {number_list()}입니다.")
+print(f"생성된 로또 번호는 {lottonumber_list()}입니다.")
